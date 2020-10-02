@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<script src="TICK-TOCK-master/lib/p5.js"></script>
+    <script src="TICK-TOCK-master/lib/p5.dom.min.js"></script>
+    <script src="TICK-TOCK-master/lib/p5.sound.min.js"></script>
+<script src="TICK-TOCK-master/lib/p5.play.js"></script>
+<script src="TICK-TOCK-master/lib/matter.js"></script>
+<script src="TICK-TOCK-master/README.md"></script>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Words With Adithya</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+            
+            <h2>WWA</h2>
+            <h2>Words With Adithya</h2>
+        </div>
+    </nav>
+
+    <section class="input container">
+        <div class="instruct">
+        <h2>Type any word in english below to get the</h2>
+        <h2>pronounciation and meaning </h2>
+        
+    </div>        
+        <div class="form__wrap">
+            <div class="input__wrap">
+                <input type="text" placeholder="Type a word" id="input">
+                <button id="search">SEARCH</button>
+            </div>
+        </div>
+    </section>   
+    <section class="data container">
+        <span class="loading">Loading...</span>
+        <p class="def"></p>
+        <div class="audio"></div>
+        <div class="not__found"></div>
+    </section>
+    <script src="./app.js"></script>
+    <script src="TICK-TOCK-master/sketch.js"></script>
+    <div class = "go">
+        
+    </div>
+    
+</body>
+
+</html>
